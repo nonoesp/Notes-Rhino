@@ -19,9 +19,19 @@ Notes on Rhino, Grasshopper and Python.
 
 # Rhino Python
 
-## Create a Point
+## Importing the RhinoScriptSyntax
+
+There code should be added before any snippets using the *rs* library (e.g. rs.AddPoint([0, 0, 0]).
+
+## Add a Point
 
 ```
-import rhinoscriptsyntax as rs
-rs.AddPoint(0, 0, 0)
+# Add a Point at (0,0,0)
+rs.AddPoint([0, 0, 0])
 ```
+
+## Add a Line
+``
+# Add a Line from the point (0, 0, 0) to (0, 0, 1)
+rs.AddLine([0, 0, 0], [0, 0, 1])
+``
