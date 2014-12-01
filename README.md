@@ -5,14 +5,21 @@ Notes on Rhino, Grasshopper and Python.
 
 # Commands
 
-## Selection
+### Selection Commands
+
 `zs` Zoom selected objects.
 
 `selall` Select all.
 
-`toolbar reset` Resets the default configuration of the toolbars (needs restart of Rhino).
+`sel`*+element_type* Add to current selection the specified objects (e.g. `selcrv`, `seltext`, `selcrv`, `seldim` or `selleader`)
 
-`sel`*+element* Add to current selection the specified objects (e.g. `seltext`, `selcrv`, `seldim` or `selleader`)
+## General Commands
+
+`hide` or `show` Hides or shows selected geometry.
+
+`lock` or `unlock` Locks selected geometry, or unlocks all locked [and visible] geometry.
+
+`toolbar reset` Resets the default configuration of the toolbars (needs restart of Rhino).
 
 `CTRL + SHIFT + CLICK` Select a part of group or object (member, face, point, edge)
 
