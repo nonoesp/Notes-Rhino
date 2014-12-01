@@ -42,3 +42,11 @@ rs.AddPoint([0, 0, 0])
 # Add a Line from the point (0, 0, 0) to (0, 0, 1)
 rs.AddLine([0, 0, 0], [0, 0, 1])
 ```
+
+## Rhynamo
+
+### Packages
+
+To install packages downloaded manually, add them into the following folder:
+
+`C:\Users\{USERNAME}\AppData\Roaming\Dynamo.7\packages`
