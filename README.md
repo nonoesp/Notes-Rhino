@@ -50,3 +50,11 @@ rs.AddLine([0, 0, 0], [0, 0, 1])
 To install packages downloaded manually, add them into the following folder:
 
 `C:\Users\{USERNAME}\AppData\Roaming\Dynamo.7\packages`
+
+## License
+
+Notes-Rhino is licensed under the MIT license. (http://opensource.org/licenses/MIT)
+
+## Me
+
+I tweet at [@nonoesp](http://www.twitter.com/nonoesp) and blog at [nono.ma/says](http://nono.ma/says). I would love to hear about it if you find these notes are useful. Thanks!
