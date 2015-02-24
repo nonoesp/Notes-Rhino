@@ -43,6 +43,21 @@ rs.AddPoint([0, 0, 0])
 rs.AddLine([0, 0, 0], [0, 0, 1])
 ```
 
+## Switch Unit System between Meters and Milimeters
+
+This script basically switches the units of the current document between meters and milimeters. The important function is *rs.UnitSystem(),* which returns the current unit measure -- or sets it if we give parameters to the function.
+
+```
+import rhinoscriptsyntax as rs
+
+if rs.UnitSystem() == 2:
+    # Current unit is mm, Switch to m
+    rs.UnitSystem(4, False, True)
+else:
+    # Current unit is m, switch to mm
+    rs.UnitSystem(2, False, True)
+```
+
 ## Rhynamo
 
 ### Packages
