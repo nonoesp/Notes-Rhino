@@ -3,6 +3,8 @@ Notes-Rhino
 
 Notes on Rhino, Grasshopper and Python.
 
+This guide is part of the [Getting Architecture Done](http://www.gettingarchitecturedone.com/?utm_source=github&utm_medium=Notes-Rhino) project. Follow [@GettingArchDone](http://twitter.com/GettingArchDone) on Twitter or [Facebook](http://facebook.com/gettingarchitecturedone) to keep updated.
+
 # Commands
 
 ### Selection Commands
