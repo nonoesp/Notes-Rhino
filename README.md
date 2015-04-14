@@ -14,6 +14,8 @@ This guide is part of the [Getting Architecture Done](http://www.gettingarchitec
 
 ### Selection Commands
 
+`untrim` Untrim a trimmed surface and recover the original one from which it was created.
+
 `zs` Zoom selected objects.
 
 `selall` Select all.
