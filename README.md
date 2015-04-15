@@ -22,7 +22,7 @@ This guide is part of the [Getting Architecture Done](http://www.gettingarchitec
 
 `sel`*+element_type* Add to current selection the specified objects (e.g. `selcrv`, `seltext`, `selcrv`, `seldim` or `selleader`)
 
-### Run Commands at Startup
+### Commands at Startup
 
 Just by adding simple codes at the end of the shortcut path, you can make Rhino run commands at startup, or customize things [removing the splash screen for example].
 
