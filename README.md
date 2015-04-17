@@ -62,6 +62,14 @@ rs.AddPoint([0, 0, 0])
 rs.AddLine([0, 0, 0], [0, 0, 1])
 ```
 
+## Filter List to Distinct Values
+
+This can be easily done with Python, but there is a component named *Create Set* in Grasshopper which does exactly the same.
+
+```
+distinctValuesList = set(myList)
+```
+
 ## Switch Unit System between Meters and Milimeters
 
 This script basically switches the units of the current document between meters and milimeters. The important function is *rs.UnitSystem(),* which returns the current unit measure -- or sets it if we give parameters to the function.
