@@ -85,7 +85,7 @@ else:
     rs.UnitSystem(2, False, True)
 ```
 
-# Rhino Scripting with C\#
+# Rhino Scripting with C Sharp
 
 To get started with some Rhino Common scripting in C#.
 
@@ -99,8 +99,10 @@ Vector3d.ZAxis
 
 Polyline
 
+```
 Polyline polyline = new Polyline(points); // Creates a polyline from a list of points
 polyline.ToList(); // Retrieves the vertices of the polyline
+```
 
 Vector
 
