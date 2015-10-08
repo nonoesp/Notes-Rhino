@@ -43,7 +43,7 @@ Just by adding simple codes at the end of the shortcut path, you can make Rhino 
 `CTRL + SHIFT + CLICK` Select a part of group or object (member, face, point, edge)
 
 
-# Rhino Python
+# Rhino Scripting with Python
 
 ## Importing the RhinoScriptSyntax
 
@@ -83,6 +83,32 @@ if rs.UnitSystem() == 2:
 else:
     # Current unit is m, switch to mm
     rs.UnitSystem(2, False, True)
+```
+
+## Rhino Scripting with C#
+
+To get started with some Rhino Common scripting in C#.
+
+Useful getters
+
+```
+Point3d.Origin
+Plane.XYWorld
+Vector3d.ZAxis
+```
+
+Polyline
+
+Polyline polyline = new Polyline(points); // Creates a polyline from a list of points
+polyline.ToList(); // Retrieves the vertices of the polyline
+
+Vector
+
+```
+Vector3d vector = new Vector3d(1.0, 1.0, 0.0);
+vector.Length; // Retrieves the vector's length = 1.42
+vector.Unitize(); // Unitizes the vector
+vector.Length; // Should output 1
 ```
 
 ## Rhynamo
