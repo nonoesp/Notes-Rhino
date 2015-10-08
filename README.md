@@ -85,7 +85,7 @@ else:
     rs.UnitSystem(2, False, True)
 ```
 
-## Rhino Scripting with C#
+# Rhino Scripting with C\#
 
 To get started with some Rhino Common scripting in C#.
 
