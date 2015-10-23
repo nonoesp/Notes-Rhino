@@ -85,7 +85,7 @@ else:
     rs.UnitSystem(2, False, True)
 ```
 
-# Rhino Scripting with C Sharp
+# Rhino Scripting with C#
 
 To get started with some Rhino Common scripting in C#.
 
@@ -111,6 +111,13 @@ Vector3d vector = new Vector3d(1.0, 1.0, 0.0);
 vector.Length; // Retrieves the vector's length = 1.42
 vector.Unitize(); // Unitizes the vector
 vector.Length; // Should output 1
+```
+
+List
+
+```c#
+// Sort a List (for example if every item in the list has an age value)
+aList.Sort((s1, s2) => s1.age.CompareTo(s2.age)); // List is arranged in ascending order by item age
 ```
 
 ## Rhynamo
