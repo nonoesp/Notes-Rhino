@@ -38,6 +38,12 @@ Just by adding simple codes at the end of the shortcut path, you can make Rhino 
  /runscript=!_grasshopper /nosplash
 ```
 
+## Using Rhino Schemes
+
+According to [McNeel](http://wiki.mcneel.com/rhino/schemes), "a scheme is a new location in the registry where an additional set of Rhino Options can be stored. These are the Rhino settings that you configure in the Options command." Furthermore, "a scheme can include a template specification, i.e. any scheme can open with a specific template. After starting Rhino with your newly created scheme, use the New command and browse to the file you want to be your starting template for that scheme. In the lower left corner of the dialog, check use this file when Rhino starts. You can create a custom template by saving a drawing with the SaveAsTemplate command or using Save As Template from the file menu."
+
+Take a look [here](http://wiki.mcneel.com/rhino/schemes) to see how to create and use your own schemes.
+
 ## General Commands
 
 `hide` or `show` Hides or shows selected geometry.
