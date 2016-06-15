@@ -26,10 +26,16 @@ This guide is part of the [Getting Architecture Done](http://www.gettingarchitec
 
 Just by adding simple codes at the end of the shortcut path, you can make Rhino run commands at startup, or customize things [removing the splash screen for example].
 
+#### Remove Splash Screen at Startup
+
+```
+ /nosplash
+```
+
 #### Run Grasshopper at Startup and Remove Splash Screen
 
 ```
- /runscript="!_grasshopper" /nosplash
+ /runscript=!_grasshopper /nosplash
 ```
 
 ## General Commands
