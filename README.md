@@ -1,7 +1,7 @@
 Notes-Rhino
 ===========
 
-Notes on Rhino, Grasshopper and Python.
+Notes on Rhino, Grasshopper, and scripting (C# and Python).
 
 This guide is part of the [Getting Architecture Done](http://www.gettingarchitecturedone.com/?utm_source=github&utm_medium=Notes-Rhino) project. Follow [@GettingArchDone](http://twitter.com/GettingArchDone) on Twitter or [Facebook](http://facebook.com/gettingarchitecturedone) to keep updated.
 
@@ -131,6 +131,20 @@ List
 // Sort a List (for example if every item in the list has an age value)
 aList.Sort((s1, s2) => s1.age.CompareTo(s2.age)); // List is arranged in ascending order by item age
 ```
+
+## Grasshopper
+
+### Add a Macro to Restart Grasshopper (Unload and Load)
+
+On Rhino, you can add a new tab and a new button. Inside the button, you can add the following macro, which will first unload the Grasshopper plugin then re-open it again. This can help if you are developing plugins for Grasshopper or installing new components -- but it won't always work with loading new DLL files, for which a full restart of Rhino is usually required.
+
+```
+_GrasshopperUnloadPlugin
+_Enter
+_Grasshopper
+```
+
+(Thanks to [Designalyze](http://designalyze.com/tutorial/macro-buttons) for the trick.)
 
 ## Rhynamo
 
